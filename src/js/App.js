@@ -358,6 +358,6 @@ addDefault();
 // End Menu Bars
 
 // For Ronimation
-import Ronimation from '../node_modules/ronimation/index.js';
+import Ronimation from './ronimation/index.js';
 
 Ronimation.watchOutside({ size: "1px", color: "blue", style: "solid" }, false).run();
