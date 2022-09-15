@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'laravel';
+  src:  url('fonts/laravel.eot?m2lekn');
+  src:  url('fonts/laravel.eot?m2lekn#iefix') format('embedded-opentype'),
+    url('fonts/laravel.ttf?m2lekn') format('truetype'),
+    url('fonts/laravel.woff?m2lekn') format('woff'),
+    url('fonts/laravel.svg?m2lekn#laravel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-laravel {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'laravel' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-laravellaravel:before {
+  content: "\e900";
+}

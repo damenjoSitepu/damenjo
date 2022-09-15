@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'php';
+  src:  url('fonts/php.eot?9u9ku6');
+  src:  url('fonts/php.eot?9u9ku6#iefix') format('embedded-opentype'),
+    url('fonts/php.ttf?9u9ku6') format('truetype'),
+    url('fonts/php.woff?9u9ku6') format('woff'),
+    url('fonts/php.svg?9u9ku6#php') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-php {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'php' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phpphp:before {
+  content: "\e900";
+}
