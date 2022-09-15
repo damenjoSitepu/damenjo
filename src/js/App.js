@@ -352,11 +352,6 @@ function addDefault() {
         nav.classList.add("addBlueTheme");
         nav.classList.remove("addNormalTheme");
     }
-    else {
-        nav.classList.remove("addBlurToNav");
-        navbar[0].classList.remove("addBlueTheme");
-        navbar[0].classList.add("addNormalTheme");
-    }
 }
 
 addDefault();
